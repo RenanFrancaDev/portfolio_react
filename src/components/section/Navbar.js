@@ -1,5 +1,5 @@
 import styles from '../styles/Navbar.module.css'
-import { FaInstagram, FaLinkedin, FaGithub } from 'react-icons/fa'
+import { FaLinkedin, FaGithub } from 'react-icons/fa'
 import Nav from 'react-bootstrap/Nav'
 
 function Navbar(){
@@ -11,8 +11,8 @@ function Navbar(){
                 <li><Nav.Link href='#project'>Projetos</Nav.Link></li>
             </ul>
             <ul>
-                {/* <li><a href='https://github.com/RenanFrancaDev'><FaGithub size={30}/></a></li>
-                <li><a href='https://www.linkedin.com/in/renan-franca/'><FaLinkedin size={30}/></a></li> */}
+                <li><a href='https://github.com/RenanFrancaDev'><FaGithub size={30}/></a></li>
+                <li><a href='https://www.linkedin.com/in/renan-franca/'><FaLinkedin size={30}/></a></li>
             </ul>
         </div> 
     )
