@@ -23,7 +23,7 @@ function Projects(){
         repo=''
         site=''
         /> */}
-        <Button2 text='Acesse o repositório' link='https://github.com/RenanFrancaDev/portfolio_react'/>
+            <Button2 text='Acesse o repositório' link='https://github.com/RenanFrancaDev/portfolio_react' />
         </div>
     )
 }
