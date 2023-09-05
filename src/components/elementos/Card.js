@@ -19,7 +19,7 @@ function InfoOff(){
                 <img src={img} alt='Card'/>
            </a>
 
-            {info === true &&(
+            {info === true  &&(
 
            <section>
                 <h3>{title}</h3>

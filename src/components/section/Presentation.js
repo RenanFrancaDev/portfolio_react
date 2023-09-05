@@ -5,7 +5,7 @@ import { useEffect, useState } from 'react'
 function Presentation(){
 
   const [text, setText] = useState('');
-  const rotate = ['Renan França', 'Desenvolvedor Front End'];
+  const rotate = ['Renan França', 'Desenvolvedor Front End', 'Engenheiro de Produção'];
   const [loop, setLoop] = useState(0);
   const [deleting, setDeleting] = useState(false);
   const period = 100;
@@ -40,11 +40,9 @@ function Presentation(){
         <div className={styles.presentation} id="presentation">
           <h4><strong>Bem-vindo ao meu Portfólio</strong></h4>
           <h1>Olá, eu sou {text}</h1>
-          <p>Sou um apaixonado por tecnologia e soluções inovadoras.<br/>
-            Como Product Manager, eu tenho o compromisso de resolver problemas<br/>
-            complexos e trazer resultados excepcionais para os negócios.<br/>
-            Meus projetos já geraram milhões de reais em receita anual<br/>
-            estou sempre em busca de novos desafios para superar.<br/>
+          <p>Engenheiro de Produção, que migrou para a área de técnologia, onde estou cursando Superior em Análise e Desenvolvimento de Sistemas, trabalhando com projetos em React.js e Data² e cursando a Formação em Tecnologia (Full Stack) pela DNC.
+          Atualmente faço aplicativos personalizados pela Fire Development e presto serviços de Desenvolvedor Web para o Mauá Bank.
+          
           </p>
           <Button1 text='Conecte-se Comigo' link='https://www.linkedin.com/in/renan-franca/'/>
         </div>
