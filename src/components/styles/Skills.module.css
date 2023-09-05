@@ -7,7 +7,7 @@
 }
 
 .skill img{
-    height: 140px;
+    height: 90px;
     margin: 25px;
     filter: drop-shadow(0px 4px 4px rgba(197, 196, 196, 0.25));
     transition: 0.3s ease-out;
