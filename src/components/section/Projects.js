@@ -12,6 +12,7 @@ import pokedex from '../../images/cards/Pokedex.png'
 import ecommerce from '../../images/cards/ecommerce.png'
 import twitter from '../../images/cards/clone_twitter.png'
 import search from '../../images/cards/search_count.png'
+import Button1 from '../elementos/Button1'
 
 function Projects(){
     return (
@@ -62,7 +63,7 @@ function Projects(){
         img={ccpx}
         title='Página de Evento CCXP'
         description='Simulação de uma página apra empresa de marketing, usando countdown'
-        tech='HTML, CSS e JavaScript'
+        tech=' HTML, CSS e JavaScript'
         repo='https://github.com/RenanFrancaDev/CCXP'
         site='https://ccxp-theta.vercel.app/'
         />
@@ -107,7 +108,7 @@ function Projects(){
         site='https://app.highlevelbrasil.com.br/'
         />
 
-            <Button2 text='Acesse o repositório' link='https://github.com/RenanFrancaDev/portfolio_react' />
+            <Button1 text='Acesse o repositório' link='https://github.com/RenanFrancaDev/portfolio_react' />
         </div>
     )
 }
