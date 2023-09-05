@@ -4,6 +4,11 @@ import html from '../../images/html.svg'
 import css from '../../images/css.svg'
 import react from '../../images/react.svg'
 import typescript from '../../images/typescript.svg'
+import sass from '../../images/sass.svg'
+import node from '../../images/nodejs-seeklogo.com.svg'
+
+
+
 function Skills(){
     return (
         <div className={styles.skill} id="skills">
@@ -15,6 +20,8 @@ function Skills(){
                 <img src={css}/>
                 <img src={react}/>
                 <img src={typescript}/>
+                <img src={node}/>
+                <img src={sass}/>
             </div>
         </div>
     )
