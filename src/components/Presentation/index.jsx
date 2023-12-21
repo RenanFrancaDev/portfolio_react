@@ -7,7 +7,7 @@ const Presentation = () => {
     <section id="home">
       <div className="home_container">
         <h1>Renan França</h1>
-        <h2>Full Stack Developer</h2>
+        <h3>Full Stack Developer</h3>
         <p>
           Graduated in Manufacturing Engineering, with experience in the Supply
           Chain area, I migrated to a technology career. I'm studying Systems

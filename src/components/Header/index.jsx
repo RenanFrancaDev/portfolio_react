@@ -1,4 +1,3 @@
-import React from "react";
 import "./header.css";
 import logo from "../../assets/firedev_branco.svg";
 
@@ -6,7 +5,7 @@ const Header = () => {
   return (
     <header id="header">
       <div className="navegacao">
-        <img src={logo} alt="logo" width={100} />
+        <img src={logo} alt="logo" width={70} />
         <ul className="list">
           <a href="#">
             <li>Home</li>

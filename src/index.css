@@ -1,11 +1,18 @@
 :root {
   --fire-gray: #3c3c3b;
   --fire-green: rgb(24, 166, 56);
-  --fire-ngreen: #96c98c;
+  --fire-green2: rgb(11, 113, 35);
+  --fire-ngreen: rgb(150, 201, 140);
 
   --header-background: linear-gradient(
     90deg,
     rgb(24, 166, 56) 30%,
+    rgb(11, 113, 35) 100%
+  );
+
+  --about-background: linear-gradient(
+    90deg,
+    rgb(150, 201, 140) 30%,
     rgb(11, 113, 35) 100%
   );
 }
