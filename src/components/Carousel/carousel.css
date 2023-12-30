@@ -1,0 +1,52 @@
+.section_card {
+  position: relative;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.title_section {
+  color: black;
+  font-weight: 600;
+  font-size: 48px;
+}
+
+.title_type {
+  text-align: start;
+  padding-left: 10px;
+}
+
+.container_card {
+  display: flex;
+  gap: 3%;
+  flex-wrap: nowrap;
+  overflow: auto;
+  margin-top: 50px;
+  position: relative;
+}
+
+.btns {
+  background-color: transparent;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  margin: 0 10px;
+  width: 75px;
+  height: 75px;
+  position: absolute;
+  top: 50%;
+}
+
+#left_btn {
+  left: 0;
+}
+
+#right_btn {
+  right: 0;
+}
+
+.left_arrow {
+  transform: rotate(180deg);
+}
+.right_arrow {
+  left: 100px;
+}
