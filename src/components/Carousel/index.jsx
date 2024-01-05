@@ -2,20 +2,22 @@ import Card from "../Card";
 import { useEffect, useState, useRef } from "react";
 import { ProjectsService } from "../../api/ProjectsService";
 import arrowIcon from "../../assets/chevron_icon.png";
+import "./carousel.css";
 
 const Carousel = ({ type }) => {
   const [projects, setprojects] = useState([]);
+  const intervalRef = useRef(null);
 
   const carousel = useRef(null);
 
-  const handleLeftClick = (e) => {
-    e.preventDefault();
+  const handleLeftClick = () => {
     carousel.current.scrollLeft -= carousel.current.offsetWidth;
   };
 
-  const handleRightClick = (e) => {
-    e.preventDefault();
-    carousel.current.scrollLeft += carousel.current.offsetWidth;
+  const handleRightClick = () => {
+    if (carousel.current) {
+      carousel.current.scrollLeft += carousel.current.offsetWidth;
+    }
   };
 
   const getProjects = async () => {
@@ -26,9 +28,18 @@ const Carousel = ({ type }) => {
 
   useEffect(() => {
     getProjects();
+
+    intervalRef.current = setInterval(() => {
+      handleRightClick();
+    }, 10000);
+
+    return () => {
+      clearInterval(intervalRef.current);
+    };
   }, []);
+
   return (
-    <>
+    <div className="container_carousel">
       <div className="container_card" ref={carousel}>
         {projects.map((item, index) => {
           return <Card key={index} item={item} />;
@@ -40,7 +51,7 @@ const Carousel = ({ type }) => {
       <button className="btns" id="right_btn" onClick={handleRightClick}>
         <img className="right_arrow" src={arrowIcon} alt="Scroll Right" />
       </button>
-    </>
+    </div>
   );
 };
 

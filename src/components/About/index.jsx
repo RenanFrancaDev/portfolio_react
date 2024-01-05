@@ -5,7 +5,7 @@ const About = () => {
   return (
     <section className="about">
       <div className="container_title">
-        <h2>About Me</h2>
+        <h2 className="title">About Me</h2>
       </div>
       <div className="container_about">
         <div>
@@ -17,7 +17,7 @@ const About = () => {
             I became a buyer, always working in Supply Chain. The first time
             that I have contact with development was in 2022, making Landing
             pages with HTML, CSS and JavaScript, when I decided to change my
-            career and work with IT, where I'm working as a freelancer at the
+            career and work with IT, where I am working as a freelancer at the
             moment. I started a degree in Systems Analysis and Development and
             delved deeper into programming studies. Today I am a full stack
             developer, where I took courses and gained knowledge in React.js,

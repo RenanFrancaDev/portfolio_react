@@ -1,18 +1,5 @@
-.section_card {
+.container_carousel {
   position: relative;
-  width: 100%;
-  box-sizing: border-box;
-}
-
-.title_section {
-  color: black;
-  font-weight: 600;
-  font-size: 48px;
-}
-
-.title_type {
-  text-align: start;
-  padding-left: 10px;
 }
 
 .container_card {
@@ -21,7 +8,6 @@
   flex-wrap: nowrap;
   overflow: auto;
   margin-top: 50px;
-  position: relative;
 }
 
 .btns {
@@ -33,7 +19,7 @@
   width: 75px;
   height: 75px;
   position: absolute;
-  top: 50%;
+  top: 75%;
 }
 
 #left_btn {

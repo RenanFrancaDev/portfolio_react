@@ -1,0 +1,36 @@
+.section_card {
+  position: relative;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.title_section {
+  color: black;
+  font-weight: 600;
+  font-size: 48px;
+}
+
+.container_title {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.title_type {
+  text-align: start;
+  padding-left: 10px;
+  padding-top: 20px;
+}
+
+.logo_tech {
+  width: 50px;
+  height: 50px;
+  transition: linear 0.5s;
+  box-shadow: 4px 4px 4px 4px #c1c1c1;
+  border-radius: 10%;
+}
+
+.logo_tech:hover {
+  width: 75px;
+}
