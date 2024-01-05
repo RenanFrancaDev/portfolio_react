@@ -1,4 +1,3 @@
-import React from "react";
 import illustration from "../../assets/illustration.jpg";
 import "./presentation.css";
 
@@ -10,7 +9,7 @@ const Presentation = () => {
         <h3>Full Stack Developer</h3>
         <p>
           Graduated in Manufacturing Engineering, with experience in the Supply
-          Chain area, I migrated to a technology career. I'm studying Systems
+          Chain area, I migrated to a technology career. I a m studying Systems
           Analysis and Development at the Universidade de Taubaté and studying
           Full Stack Technology at the DNC school. I have freelance and academic
           work.
@@ -18,7 +17,7 @@ const Presentation = () => {
       </div>
       <div>
         <img
-          className="programation"
+          className="img_presentation"
           src={illustration}
           alt="illustration"
           width={500}

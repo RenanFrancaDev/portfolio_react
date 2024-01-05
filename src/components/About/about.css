@@ -8,15 +8,17 @@
   justify-content: center;
   margin: auto;
   width: 100%;
-  border-bottom: 1px solid #fff;
 }
 
 .title {
+  display: block;
+  width: 100%;
   text-align: center;
   color: #fff;
   padding-top: 50px;
   font-size: 40px;
   font-weight: 500;
+  border-bottom: 1px solid #f0f0f0;
 }
 
 .container_about {

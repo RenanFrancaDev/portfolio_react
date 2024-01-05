@@ -5,8 +5,8 @@ const Projects = () => {
   return (
     <section className="section_card">
       <h2 className="title_section">Projects</h2>
+      <h3 className="title_type">Front-End</h3>
       <div className="container_title">
-        <h3 className="title_type">Front-End:</h3>
         <img
           className="logo_tech"
           src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg"
@@ -49,8 +49,8 @@ const Projects = () => {
         ></img>
       </div>
       <Carousel type={"frontend"} />
+      <h3 className="title_type">Back-End | REST API</h3>
       <div className="container_title">
-        <h3 className="title_type">Back-End REST API:</h3>
         <img
           className="logo_tech"
           src="https://www.cdnlogo.com/logos/n/94/nodejs-icon.svg"
@@ -68,8 +68,8 @@ const Projects = () => {
         ></img>
       </div>
       <Carousel type={"backend"} />
+      <h3 className="title_type">Landing Page</h3>
       <div className="container_title">
-        <h3 className="title_type">Landing Page:</h3>
         <img
           className="logo_tech"
           src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg"

@@ -4,7 +4,7 @@
   flex-direction: row;
   align-items: center;
   height: 85vh;
-  background-color: #fff;
+  background-color: #f0f0f0;
 }
 
 .home_container {
@@ -31,4 +31,8 @@ h3 {
 p {
   margin: 0 40px 0 40px;
   color: black;
+}
+
+.img_presentation {
+  border-radius: 70%;
 }
