@@ -1,5 +1,6 @@
 .container_carousel {
   position: relative;
+  width: 100%;
 }
 
 .container_card {
@@ -19,7 +20,8 @@
   width: 50px;
   height: 50px;
   position: absolute;
-  top: 90%;
+  top: 100%;
+  padding-bottom: 30px;
 }
 
 #left_btn {
@@ -32,7 +34,16 @@
 
 .left_arrow {
   transform: rotate(180deg);
+  width: 50px;
 }
 .right_arrow {
   left: 100px;
+  width: 50px;
+}
+
+@media (max-width: 800px) {
+  .left_arrow,
+  .right_arrow {
+    width: 30px;
+  }
 }

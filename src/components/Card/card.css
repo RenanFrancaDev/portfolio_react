@@ -1,15 +1,16 @@
 .container_img {
-  max-height: 320px;
-  width: 580px;
+  height: 280px;
+  width: 480px;
   box-shadow: 4px 4px 10px 4px #0a0a0a;
 }
 
 .img_card {
-  height: 280px;
+  height: 100%;
   width: 100%;
 }
 
 .project_title {
+  background-color: transparent;
   color: #0a0a0a;
   font-size: 24px;
   text-align: center;
@@ -60,7 +61,7 @@
 }
 
 .title_techs {
-  font-size: 24px;
+  font-size: 22px;
   color: #0a0a0a;
 }
 
@@ -75,4 +76,27 @@
   display: flex;
   align-items: center;
   gap: 10px;
+}
+
+@media (max-width: 800px) {
+  .container_img {
+    width: 280px;
+    height: 150px;
+  }
+
+  .container_info {
+    height: 200px;
+    width: 280px;
+    transform: translateY(-120%);
+  }
+
+  .project_title_info,
+  .title_techs {
+    font-size: 12px;
+  }
+
+  .project_description,
+  .techs {
+    font-size: 10px;
+  }
 }

@@ -4,7 +4,7 @@ import logoWorld from "../../assets/world.png";
 
 const Card = ({ item }) => {
   return (
-    <div className="container">
+    <div className="container_card_component">
       <div className="container_img">
         <img className="img_card" src={item.imageUrl} alt={item.title} />
         <h3 className="project_title">{item.title}</h3>

@@ -8,7 +8,7 @@
   text-align: center;
   color: #f0f0f0;
   padding-top: 15px;
-  font-size: 40px;
+  font-size: 24px;
   font-weight: 500;
   border-bottom: 1px solid #f0f0f0;
   margin-bottom: 20px;
@@ -16,17 +16,18 @@
 
 .container-icon {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   padding-bottom: 20px;
+  gap: 1%;
 }
 
 .icon {
   border-radius: 10px;
   overflow: hidden;
   box-shadow: 1px 7px 25px 1px rgba(255, 255, 255, 0.5);
-  margin-left: 50px;
   padding-top: 10px;
   transition: 0.5s;
+  min-width: 120px;
 }
 
 .icon:first-child {
@@ -63,10 +64,17 @@
 .text-contact {
   color: white;
   width: 300px;
+  font-size: 14px;
   text-align: center;
   font-weight: 200;
 }
 
 .img-logo {
   height: 30px;
+}
+
+@media (max-width: 800px) {
+  .text-contact {
+    font-size: 7px;
+  }
 }
