@@ -3,7 +3,7 @@
   justify-content: space-around;
   flex-direction: row;
   align-items: center;
-  height: 85vh;
+  min-height: 85vh;
   background-color: #f0f0f0;
 }
 
@@ -33,6 +33,28 @@
   color: black;
 }
 
+.presentation_img {
+  width: 30%;
+  height: 100%;
+  text-align: center;
+}
+
 .img_presentation {
   border-radius: 70%;
+  width: 100%;
+}
+
+@media (max-width: 880px) {
+  .home_container {
+    width: 70%;
+  }
+}
+
+@media (max-width: 700px) {
+  .presentation_img {
+    display: none;
+  }
+  .home_container {
+    width: 100%;
+  }
 }

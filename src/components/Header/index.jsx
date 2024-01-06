@@ -19,10 +19,10 @@ const Header = () => {
           <a href="#">
             <li>Contact</li>
           </a>
-          <input type="checkbox" className="checkbox" id="chk" />
+          {/* <input type="checkbox" className="checkbox" id="chk" />
           <label htmlFor="chk" className="label">
             <div className="ball"></div>
-          </label>
+          </label> */}
         </ul>
       </div>
     </header>

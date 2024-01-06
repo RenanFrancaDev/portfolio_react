@@ -4,6 +4,7 @@
   box-sizing: border-box;
   background-color: #f0f0f0;
   overflow: hidden;
+  padding-bottom: 50px;
 }
 
 .title_section {

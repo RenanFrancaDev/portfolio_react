@@ -15,12 +15,11 @@ const Presentation = () => {
           work.
         </p>
       </div>
-      <div>
+      <div className="presentation_img">
         <img
           className="img_presentation"
           src={illustration}
           alt="illustration"
-          width={500}
         />
       </div>
     </section>
