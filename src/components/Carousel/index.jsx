@@ -16,7 +16,7 @@ const Carousel = ({ type }) => {
 
   const handleRightClick = () => {
     if (carousel.current) {
-      carousel.current.scrollLeft += carousel.current.offsetWidth;
+      carousel.current.scrollLeft += 100;
     }
   };
 
@@ -31,7 +31,7 @@ const Carousel = ({ type }) => {
 
     intervalRef.current = setInterval(() => {
       handleRightClick();
-    }, 10000);
+    }, 2000);
 
     return () => {
       clearInterval(intervalRef.current);

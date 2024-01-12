@@ -3,7 +3,7 @@ import Carousel from "../Carousel";
 
 const Projects = () => {
   return (
-    <section className="section_card">
+    <section className="section_card" id="project2">
       <h2 className="title_section">Projects</h2>
       <h3 className="title_type">Front-End</h3>
       <div className="container_title">
@@ -87,6 +87,9 @@ const Projects = () => {
         ></img>
       </div>
       <Carousel type={"landing"} />
+      <h3 className="title_type">Data²</h3>
+      <div className="container_title"></div>
+      <Carousel type={"data2"} />
     </section>
   );
 };

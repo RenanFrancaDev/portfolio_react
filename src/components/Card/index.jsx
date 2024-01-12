@@ -1,5 +1,5 @@
 import "./card.css";
-import logoGithub from "../../assets/github-logo.png";
+import logoGithub from "../../assets/github_black.png";
 import logoWorld from "../../assets/world.png";
 
 const Card = ({ item }) => {
@@ -32,7 +32,7 @@ const Card = ({ item }) => {
                 alt="logo github"
               ></img>
             </a>
-            <a href={item.repository} target="_blank" rel="noreferrer">
+            <a href={item.deploy} target="_blank" rel="noreferrer">
               <img
                 className="card_icon"
                 src={logoWorld}
