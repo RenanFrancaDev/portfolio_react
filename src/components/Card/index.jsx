@@ -7,7 +7,6 @@ const Card = ({ item }) => {
     <div className="container_card_component">
       <div className="container_img">
         <img className="img_card" src={item.imageUrl} alt={item.title} />
-        <h3 className="project_title">{item.title}</h3>
         <div className="container_info">
           <h4 className="project_title_info">{item.title}</h4>
           <p className="project_description">

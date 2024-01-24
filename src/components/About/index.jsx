@@ -13,16 +13,19 @@ const About = () => {
         </div>
         <div className="description">
           <p>
-            I began my professional career in the industry as an intern and
-            eventually became a buyer, consistently working in Supply Chain. My
-            first exposure to development was in 2022 when I started creating
-            Landing pages using HTML, CSS, and JavaScript. This experience led
-            me to make a career change and pursue IT, where I am currently
-            working as a freelancer. I enrolled in a Systems Analysis and
-            Development program and have since immersed myself in programming
-            studies. Today, I am a full stack developer with expertise in
-            React.js, TypeScript, Node.js, Rest API, MySQL, and NoSQL. I am
-            eager to continue learning and expanding my knowledge in this field.
+            I started my professional journey in the industry as an intern and
+            gradually worked my way up to becoming a buyer, consistently
+            focusing on Supply Chain. In 2022, I had my first encounter with
+            development when I began creating Landing pages using HTML, CSS, and
+            JavaScript. This experience sparked a passion for IT, leading me to
+            make a career transition and pursue freelancing in the field. I
+            started a degree in Systems Analysis and Development and have since
+            fully immersed myself in studying programming. Today, I am a full
+            stack developer with expertise in React.js, TypeScript, Node.js,
+            Rest API, MySQL, and NoSQL. I am driven by a strong desire to
+            continuously learn and expand my knowledge in this dynamic field.
+            <br />
+            <br /> Let me know if there is anything else I can assist you with!
           </p>
         </div>
       </div>
